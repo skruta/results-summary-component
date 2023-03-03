@@ -1,0 +1,6 @@
+@use 'sass:math';
+
+// Using math.div because "/" is deprecated.
+@function rem($size) {
+  @return math.div($size, 16) * 1rem;
+}

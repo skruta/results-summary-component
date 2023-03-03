@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/sass/style.scss" />
+    <title>Results summary</title>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <section class="result">
+          <!-- Because of accessibilty -->
+          <h1 class="result__title">Your result</h1>
+          <div class="result__score">
+            <span class="result__points">76</span>
+            <span class="result__total-points">of 100</span>
+          </div>
+          <p class="result__lead">Great</p>
+          <p class="result__text">
+            Your perfomance exceed 65% of the people conducting the test here!
+          </p>
+        </section>
+        <section class="summary">
+          <h2 class="summary__title">Summary</h2>
+          <ul class="pills">
+            <li class="pill pill--red">
+              <div>
+                <img
+                  src="/assets/images/icon-reaction.svg"
+                  alt=""
+                  class="pill__icon"
+                  width="20px"
+                  height="20px"
+                />
+                <h3 class="pill__name">Reaction</h3>
+              </div>
+              <span class="pill__score">80<span> / 100</span></span>
+            </li>
+            <li class="pill pill--yellow">
+              <div>
+                <img
+                  src="/assets/images/icon-memory.svg"
+                  alt=""
+                  class="pill__icon"
+                  width="20px"
+                  height="20px"
+                />
+                <h3 class="pill__name">Memory</h3>
+              </div>
+              <span class="pill__score">92<span> / 100</span></span>
+            </li>
+            <li class="pill pill--green">
+              <div>
+                <img
+                  src="/assets/images/icon-verbal.svg"
+                  alt=""
+                  class="pill__icon"
+                  width="20px"
+                  height="20px"
+                />
+                <h3 class="pill__name">Verbal</h3>
+              </div>
+              <span class="pill__score">67<span> / 100</span></span>
+            </li>
+            <li class="pill pill--blue">
+              <div>
+                <img
+                  src="/assets/images/icon-visual.svg"
+                  alt=""
+                  class="pill__icon"
+                  width="20px"
+                  height="20px"
+                />
+                <h3 class="pill__name">Visual</h3>
+              </div>
+              <span class="pill__score">73<span> / 100</span></span>
+            </li>
+          </ul>
+          <buton type="button" class="summary__button">Continue</buton>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
