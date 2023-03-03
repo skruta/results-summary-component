@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution [URL](https://your-solution-url.com)
-- Live Site [URL](https://your-solution-url.com)
+- Solution [URL]([https://your-solution-url.com](https://github.com/skruta/results-summary-component))
+- Live Site [URL](https://results-summary-component-7awwdirug-skruta.vercel.app/)
 
 ## My process
 
